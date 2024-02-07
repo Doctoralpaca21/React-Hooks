@@ -2,23 +2,23 @@ import  { useState } from 'react'
 
 export const useCounter = (initialState = 10) => {
 
-    const [state, setState] = useState(initialState);
+    const [counter, setCounter] = useState(initialState);
 
-    const increment = (jump = 1) => {
-        setState(state+jump)
+    const increment = () => {
+        setCounter(counter+1)
     }
 
-    const decrement = (jump = 1) => {
-        setState(state-jump)
+    const decrement = () => {
+        setCounter(counter-1)
     }
 
     const reset = () => {
-        setState(initialState);
+        setCounter(initialState);
     }
 
     // console.log("state hook" + state)
     return {
-        state,
+        counter,
         increment,
         decrement,
         reset
