@@ -6,7 +6,8 @@ import './index.css'
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks.jsx'
 // import { FocusScream } from './components/04-UseRef/focusScream.jsx'
 // import { ExampleRef } from './components/04-UseRef/Example.jsx'
-import { LayoutEffect } from './components/05-useLayoutEffect/LayourEffect.jsx'
+// import { LayoutEffect } from './components/05-useLayoutEffect/LayourEffect.jsx'
+import { Memorize } from './components/06-useMemo/memorize.jsx'
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/cli.min.js" />
@@ -19,5 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     // <MultipleCustomHooks/>
     // <FocusScream/>
     // <ExampleRef/>
-    <LayoutEffect/>
+    // <LayoutEffect/>
+    <Memorize/>
 )
