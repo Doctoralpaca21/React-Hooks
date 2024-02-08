@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import { MemoHook } from './components/06-useMemo/MemoHook'
 // import { CounterWithHook } from './components/CounterWithHook.jsx'
 // import { SimpleForm } from './components/02-UseEffect/simpleForm.jsx'
 // import { FormWithCustomHooks } from './components/02-UseEffect/FormwithHook.jsx'
@@ -7,7 +8,7 @@ import './index.css'
 // import { FocusScream } from './components/04-UseRef/focusScream.jsx'
 // import { ExampleRef } from './components/04-UseRef/Example.jsx'
 // import { LayoutEffect } from './components/05-useLayoutEffect/LayourEffect.jsx'
-import { Memorize } from './components/06-useMemo/memorize.jsx'
+// import { Memorize } from './components/06-useMemo/memorize.jsx'
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/cli.min.js" />
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     // <FocusScream/>
     // <ExampleRef/>
     // <LayoutEffect/>
-    <Memorize/>
+    // <Memorize/>
+    <MemoHook/>
 )
