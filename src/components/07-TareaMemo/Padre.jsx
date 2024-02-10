@@ -17,7 +17,7 @@ export const Padre = () => {
 
     return (
         <div>
-            <h1>Padre</h1>
+            <h1 className="text-xls font-bold underline">Padre</h1>
             <p>Total: {value}</p>
             <hr />
 
