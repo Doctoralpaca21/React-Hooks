@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import { MainApp } from './components/09-useContext/MainApp'
 // import { MemoHook } from './components/06-useMemo/MemoHook'
 // import { CallbackHook } from './components/06-useMemo/CallbackHook'
 // import { Padre } from './components/07-TareaMemo/Padre'
-import { TodoApp } from './components/08-useReducer/TodoApp'
+// import { TodoApp } from './components/08-useReducer/TodoApp'
 // import { CounterWithHook } from './components/CounterWithHook.jsx'
 // import { SimpleForm } from './components/02-UseEffect/simpleForm.jsx'
 // import { FormWithCustomHooks } from './components/02-UseEffect/FormwithHook.jsx'
@@ -26,5 +27,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     // <Memorize/>
     // <MemoHook/>
     // <CallbackHook/>
-    <TodoApp/>
+    // <TodoApp/>
+    <MainApp/>
 )
